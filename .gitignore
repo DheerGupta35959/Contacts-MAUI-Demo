@@ -1,0 +1,64 @@
+## .NET / MAUI ##
+bin/
+obj/
+*.user
+*.suo
+*.DotSettings
+*.csproj.user
+
+## Visual Studio ##
+.vs/
+*.sln.ide/
+
+## JetBrains Rider ##
+.idea/
+*.sln.iml
+
+## Build Results ##
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet ##
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## macOS ##
+.DS_Store
+*.swp
+*.swo
+
+## VS Code ##
+.vscode/
+
+## Coverage ##
+coverage/
+*.coverage
+*.coveragexml
+
+## Test Results ##
+TestResults/
+*.trx
+
+## Node ##
+node_modules/
+npm-debug.log*
+
+## Paket dependency manager ##
+.paket/
+paket.exe
+
+## FAKE ##
+.fake/
